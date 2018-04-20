@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524236283 source:c:\users\alumno\desktop\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1524255176 source:d:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblio.h"
+
+1524254846 d:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.h
+

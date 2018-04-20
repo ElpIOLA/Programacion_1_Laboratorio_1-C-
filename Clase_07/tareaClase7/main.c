@@ -7,14 +7,14 @@
     DEVUELVE EL INDICE DEL LEGAJO SI ES QUE LO ENCUENTRA O SINO -1.
 */
 int funcionLegajo(int vecLeg[], int tamLeg, int numLeg);
+int validarInt(char mensaje[],char mensajeError[],int ope);
 
 int main()
 {
     int legajo[CANT], i, auxLeg, leg;
 
-    for(i=1;i<=CANT;i++){
-        printf("\n\t%d-.Ingrese legajo: ",i);
-        scanf("%d",&legajo[i]);
+    for(i=0;i<CANT;i++){
+        legajo[i] = validarInt("\n\tIngrese un numero: ","\n\tERROR! Por favor ingrese nuevamente a continuacion...",legajo[i]);
     }
 
     printf("\n\tQue legajo desea buscar?\n\tRespuesta: ");
@@ -39,4 +39,19 @@ int funcionLegajo(int vecLeg[], int tamLeg, int numLeg){
         }
     }
     return index;
+}
+
+int validarInt(char mensaje[],char mensajeError[],int ope){
+    char aux[20];
+    do{
+        printf("%s",mensaje);
+        scanf("%s",aux);
+        ope = atoi(aux);
+        if(ope!=0){
+            break;
+        }else{
+            printf("%s",mensajeError);
+        }
+    }while(ope==0);
+    return ope;
 }
