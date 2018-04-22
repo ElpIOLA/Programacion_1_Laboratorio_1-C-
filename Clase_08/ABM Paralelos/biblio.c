@@ -2,19 +2,24 @@
 #include <stdlib.h>
 #include <string.h>
 #include "biblio.h"
+#include "libreria.h"
 #define TAM 3
 
 int buscarLibre(int legajos[], int tam){
-    int index = -1, i, auxLeg;
-
-    printf("\n\tIngrese legajo: ");
-    scanf("%d",&auxLeg);
+    int index = -1, i, leg;
+    char auxLeg[20];
 
     for(i=0;i<tam;i++){
-        if(auxLeg == legajos[i]){
+
+        if(!getStringNumeros("\n\tIngrese legajo: ",auxLeg)){
+            printf("\n\tERROR! El legajo debe ser solo numeros.\n");
+            break;
+        }
+        leg = atoi(auxLeg);
+        if(leg == legajos[i]){
             break;
         }else{
-            index = auxLeg;
+            index = leg;
             break;
         }
     }
@@ -22,32 +27,64 @@ int buscarLibre(int legajos[], int tam){
 }
 
 void mostrarAlumnos(int legajos[], char nombres[][20], int nota1[], int nota2[], float promedio[], int tam){
-    int i;
+    int i, leg;
+    char auxLeg[20];
+
     for(i=0; i<tam; i++){
-        if(legajos[i]!=0){
+        if(!getStringNumeros("\n\t1Ingrese legajo del alumno que desea mostrar: ",auxLeg)){
+            printf("\n\tERROR! El legajo debe tener solo numeros.\n");
+            break;
+        }
+        leg = atoi(auxLeg);
+        if(leg == legajos[i]){
             printf("\n\tLegajo: %d\n\tNombre: %s\n\tNota 1: %d\n\tNota 2: %d\n\tPromedio: %.2f\n", legajos[i], nombres[i], nota1[i], nota2[i], promedio[i]);
+            break;
+        }else{
+            printf("\n\tNO EXISTEN ALUMNOS PARA MOSTRAR\n");
+            break;
         }
     }
 }
 
-/**------------FUNCIONES DEL ABM------------------*/
+/**--------------FUNCIONES DEL ABM--------------------*/
 
 int cargarAlumno(int legajos[], char nombres[][20], int nota1[], int nota2[], float promedio[], int tam){
     int index, i;
+    char auxNom[20], auxNotUno[20], auxNotDos[20], auxCant[20];
+
+    if(!getStringNumeros("\n\tCuantos alumnos desea cargar?\n\tRespuesta: ",auxCant)){
+        printf("\n\tERROR! La cantidad de alumnos debe ser numerica.\n");
+    }
+    tam = atoi(auxCant);
 
     for(i=0;i<tam;i++){
         index = buscarLibre(legajos, tam);
         if(index!=-1){
                 legajos[i] = index;
-                printf("\n\tIngrese nombre: ");
+
+                if(!getStringLetras("\n\tIngrese nombre: ", auxNom)){
+                    printf("\n\tERROR! El nombre debe contener solo letras.\n");
+                    break;
+                }
                 fflush(stdin);
-                gets(nombres[i]);
-                printf("\n\tIngrese nota 1: ");
-                scanf("%d",&nota1[i]);
-                printf("\n\tIngrese nota 2: ");
-                scanf("%d",&nota2[i]);
+                strcpy(nombres[i],auxNom);
+
+                if(!getStringNumeros("\n\tIngrese primer nota: ",auxNotUno)){
+                    printf("\n\tERROR! La nota debe tener solo numeros.\n");
+                    break;
+                }
+                nota1[i] = atoi(auxNotUno);
+
+                if(!getStringNumeros("\n\tIngrese segunda nota: ",auxNotDos)){
+                    printf("\n\tERROR! La nota debe tener solo numeros.\n");
+                    break;
+                }
+                nota2[i] = atoi(auxNotDos);
+
                 promedio[i] = calcularPromedio(nota1[i],nota2[i]);
-                break;
+
+                printf("\n\tALUMNO DADO DE ALTA!\n");
+
         }else{
             break;
         }
@@ -56,54 +93,116 @@ int cargarAlumno(int legajos[], char nombres[][20], int nota1[], int nota2[], fl
 }
 
 int modificarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int tam){
-    int i, auxLeg, index = 0;
-    char nomAux[20];
-    int legAux, not1Aux, not2Aux;
+    int i, index = 0, leg;
+    char auxNom[20], legAux[20], not1Aux[20], not2Aux[20], auxLeg[20];
 
-    printf("\n\tIngrese legajo del alumno a modificar: ");
-    scanf("%d",&auxLeg);
+    if(!getStringNumeros("\n\tIngrese nuevo legajo: ",auxLeg)){
+            printf("\n\tERROR! El legajo debe tener solo numeros.\n");
+        }
+    leg = atoi(auxLeg);
 
     for(i=0;i<TAM;i++){
-        if(legajo[i] == auxLeg){
+
+        if(leg == legajo[i]){
             index = 1;
             printf("\n\tLEGAJO ENCONTRADO!\n");
 
             printf("\n\tEl nombre actual es: %s",nombre[i]);
-            printf("\n\tIngrese el nuevo nombre: ");
+            if(!getStringLetras("\n\tIngrese nuevo nombre: ", auxNom)){
+                printf("\n\tERROR! El nombre debe contener solo letras.\n");
+                break;
+            }
             fflush(stdin);
-            gets(nomAux);
-            strcpy(nombre[i],nomAux);
+            strcpy(nombre[i],auxNom);
 
             printf("\n\tEl legajo es: %d",legajo[i]);
-            printf("\n\tIngrese el nuevo legajo: ");
-            scanf("%d",&legAux);
-            legajo[i] = legAux;
+            if(!getStringNumeros("\n\tIngrese nuevo legajo: ",legAux)){
+                printf("\n\tERROR! El legajo debe tener solo numeros.\n");
+                break;
+            }
+            legajo[i] = atoi(legAux);
 
             printf("\n\tLa nota 1 es: %d",not1[i]);
-            printf("\n\tIngrese la nueva nota 1: ");
-            scanf("%d",&not1Aux);
-            not1[i] = not1Aux;
+            if(!getStringNumeros("\n\tIngrese la primer nota: ",not1Aux)){
+                printf("\n\tERROR! La nota debe tener solo numeros.\n");
+                break;
+            }
+            not1[i] = atoi(not1Aux);
 
             printf("\n\tLa nota 2 es: %d",not2[i]);
-            printf("\n\tIngrese la nueva nota 2: ");
-            scanf("%d",&not2Aux);
-            not2[i] = not2Aux;
+            if(!getStringNumeros("\n\tIngrese la segunda nota: ",not2Aux)){
+                printf("\n\tERROR! La nota debe tener solo numeros.\n");
+                break;
+            }
+            not2[i] = atoi(not2Aux);
 
             printf("\n\tALUMNO MODIFICADO!\n\tNombre: %s\n\tLegajo: %d\n\tPrimer nota: %d\n\tSegunda nota: %d\n",nombre[i],legajo[i],not1[i],not2[i]);
         }
     }
     if(index == 0){
-        printf("\nNO EXISTE EL ALUMNO!\n");
+        printf("\n\tNO EXISTE EL ALUMNO!\n");
     }
 
     return 0;
 }
-/**------FUNCIONES MATEMATICAS----------*/
+
+int borrarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int tam){
+    int index = 0, i, leg;
+    char auxLeg[20];
+
+    if(!getStringNumeros("\n\tIngrese legajo: ",auxLeg)){
+            printf("\n\tERROR! El legajo debe tener solo numeros.\n");
+    }
+    leg = atoi(auxLeg);
+    for(i=0;i<tam;i++){
+        if(leg == legajo[i]){
+            index = 1;
+            legajo[i] = 0;
+            printf("\n\tALUMNO DADO DE BAJA!\n");
+            break;
+        }
+    }
+    if(index == 0){
+        printf("\n\tNO EXISTE EL ALUMNO\n");
+    }
+    return index;
+}
+
+int ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], int tam){
+    int index = 0, i, j, auxLeg, auxNot1, auxNot2;
+    char aux[20];
+
+    for(i=0;i<tam-1;i++){
+        for(j=i+1;i<tam;i++){
+            if(stricmp(nombre[i],nombre[j])>0){
+                strcpy(aux,nombre[i]);
+                strcpy(nombre[i],nombre[j]);
+                strcpy(nombre[j],aux);
+
+                auxLeg = legajo[i];
+                legajo[i] = legajo[j];
+                legajo[j] = auxLeg;
+
+                auxNot1 = not1[i];
+                not1[i] = not1[j];
+                not1[j] = auxNot1;
+
+                auxNot2 = not2[i];
+                not2[i] = not2[j];
+                not2[j] = auxNot2;
+            }
+        }
+    }
+
+    for(i=0;i<tam;i++){
+        printf("\n\tNombre: %s --- Legajo: %d --- Primer nota: %d --- Segunda nota:%d\n",nombre[i],legajo[i],not1[i],not2[i]);
+    }
+    return index;
+}
+/**--------------FUNCIONES MATEMATICAS--------------------*/
 
 float calcularPromedio(int not1, int not2){
     float promedio;
     promedio = (float)(not1+not2)/2;
     return promedio;
 }
-
-
