@@ -29,13 +29,13 @@ int main()
             mostrarAlumnos(legajo,nombre,nota1,nota2,promedio,TAM);
             break;
         case 3:
-            index = modificarAlumno(legajo,nombre,nota1,nota2,TAM);
+            index = modificarAlumno(legajo,nombre,nota1,nota2,promedio,TAM);
             break;
         case 4:
             index = borrarAlumno(legajo,nombre,nota1,nota2,TAM);
             break;
         case 5:
-            index = ordenarAlumnos(legajo,nombre,nota1,nota2,TAM);
+            ordenarAlumnos(legajo,nombre,nota1,nota2,promedio,TAM);
         }
 
 

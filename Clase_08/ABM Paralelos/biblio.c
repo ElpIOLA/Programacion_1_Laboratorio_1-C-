@@ -27,22 +27,10 @@ int buscarLibre(int legajos[], int tam){
 }
 
 void mostrarAlumnos(int legajos[], char nombres[][20], int nota1[], int nota2[], float promedio[], int tam){
-    int i, leg;
-    char auxLeg[20];
+    int i;
 
     for(i=0; i<tam; i++){
-        if(!getStringNumeros("\n\t1Ingrese legajo del alumno que desea mostrar: ",auxLeg)){
-            printf("\n\tERROR! El legajo debe tener solo numeros.\n");
-            break;
-        }
-        leg = atoi(auxLeg);
-        if(leg == legajos[i]){
-            printf("\n\tLegajo: %d\n\tNombre: %s\n\tNota 1: %d\n\tNota 2: %d\n\tPromedio: %.2f\n", legajos[i], nombres[i], nota1[i], nota2[i], promedio[i]);
-            break;
-        }else{
-            printf("\n\tNO EXISTEN ALUMNOS PARA MOSTRAR\n");
-            break;
-        }
+        printf("\n\tLegajo: %d\n\tNombre: %s\n\tNota 1: %d\n\tNota 2: %d\n\tPromedio: %.2f\n", legajos[i], nombres[i], nota1[i], nota2[i], promedio[i]);
     }
 }
 
@@ -50,12 +38,8 @@ void mostrarAlumnos(int legajos[], char nombres[][20], int nota1[], int nota2[],
 
 int cargarAlumno(int legajos[], char nombres[][20], int nota1[], int nota2[], float promedio[], int tam){
     int index, i;
-    char auxNom[20], auxNotUno[20], auxNotDos[20], auxCant[20];
+    char auxNom[20], auxNotUno[20], auxNotDos[20];
 
-    if(!getStringNumeros("\n\tCuantos alumnos desea cargar?\n\tRespuesta: ",auxCant)){
-        printf("\n\tERROR! La cantidad de alumnos debe ser numerica.\n");
-    }
-    tam = atoi(auxCant);
 
     for(i=0;i<tam;i++){
         index = buscarLibre(legajos, tam);
@@ -92,7 +76,7 @@ int cargarAlumno(int legajos[], char nombres[][20], int nota1[], int nota2[], fl
             return index;
 }
 
-int modificarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int tam){
+int modificarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], float promedio[], int tam){
     int i, index = 0, leg;
     char auxNom[20], legAux[20], not1Aux[20], not2Aux[20], auxLeg[20];
 
@@ -101,7 +85,7 @@ int modificarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int
         }
     leg = atoi(auxLeg);
 
-    for(i=0;i<TAM;i++){
+    for(i=0;i<tam;i++){
 
         if(leg == legajo[i]){
             index = 1;
@@ -136,7 +120,10 @@ int modificarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int
             }
             not2[i] = atoi(not2Aux);
 
-            printf("\n\tALUMNO MODIFICADO!\n\tNombre: %s\n\tLegajo: %d\n\tPrimer nota: %d\n\tSegunda nota: %d\n",nombre[i],legajo[i],not1[i],not2[i]);
+            promedio[i] = calcularPromedio(not1[i],not2[i]);
+
+            printf("\n\tALUMNO MODIFICADO!\n\tNombre: %s\n\tLegajo: %d\n\tPrimer nota: %d\n\tSegunda nota: %d\n\tPromedio: %.2f\n",nombre[i],legajo[i],not1[i],not2[i],promedio[i]);
+
         }
     }
     if(index == 0){
@@ -168,12 +155,12 @@ int borrarAlumno(int legajo[], char nombre[][20], int not1[], int not2[], int ta
     return index;
 }
 
-int ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], int tam){
-    int index = 0, i, j, auxLeg, auxNot1, auxNot2;
+void ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], float promedio[],int tam){
+    int i, j, auxLeg = 0, auxNot1 = 0, auxNot2 = 0;
     char aux[20];
 
     for(i=0;i<tam-1;i++){
-        for(j=i+1;i<tam;i++){
+        for(j=i+1;j<tam;j++){
             if(stricmp(nombre[i],nombre[j])>0){
                 strcpy(aux,nombre[i]);
                 strcpy(nombre[i],nombre[j]);
@@ -191,13 +178,13 @@ int ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], int 
                 not2[i] = not2[j];
                 not2[j] = auxNot2;
             }
+        promedio[i] = calcularPromedio(not1[i],not2[i]);
         }
     }
 
     for(i=0;i<tam;i++){
-        printf("\n\tNombre: %s --- Legajo: %d --- Primer nota: %d --- Segunda nota:%d\n",nombre[i],legajo[i],not1[i],not2[i]);
+        printf("\n\tNombre: %s -- Legajo: %d -- Nota 1: %d -- Nota 2: %d -- Promedio: %.2f\n",nombre[i],legajo[i],not1[i],not2[i],promedio[i]);
     }
-    return index;
 }
 /**--------------FUNCIONES MATEMATICAS--------------------*/
 
