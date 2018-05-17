@@ -11,7 +11,7 @@
 
 1524434616 d:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.h
 
-1524435342 source:d:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.c
+1524530060 source:d:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -36,6 +36,25 @@
 1524342732 source:c:\users\elpiola\desktop\abm paralelos\libreria.c
 
 1524428114 source:c:\users\elpiola\desktop\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblio.h"
+	"libreria.h"
+
+1524530060 source:f:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"biblio.h"
+	"libreria.h"
+
+1524434616 f:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\biblio.h
+
+1524343590 f:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\libreria.h
+
+1524342732 source:f:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\libreria.c
+
+1524434734 source:f:\programacion_laboratorio_2018\clases\clase_08\abm paralelos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"biblio.h"

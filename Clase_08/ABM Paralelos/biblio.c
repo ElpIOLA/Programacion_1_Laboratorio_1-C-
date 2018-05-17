@@ -161,7 +161,8 @@ void ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], flo
 
     for(i=0;i<tam-1;i++){
         for(j=i+1;j<tam;j++){
-            if(stricmp(nombre[i],nombre[j])>0){
+            if(legajo[i] != 0){
+                if(stricmp(nombre[i],nombre[j])>0){
                 strcpy(aux,nombre[i]);
                 strcpy(nombre[i],nombre[j]);
                 strcpy(nombre[j],aux);
@@ -177,6 +178,7 @@ void ordenarAlumnos(int legajo[], char nombre[][20], int not1[], int not2[], flo
                 auxNot2 = not2[i];
                 not2[i] = not2[j];
                 not2[j] = auxNot2;
+                }
             }
         promedio[i] = calcularPromedio(not1[i],not2[i]);
         }
