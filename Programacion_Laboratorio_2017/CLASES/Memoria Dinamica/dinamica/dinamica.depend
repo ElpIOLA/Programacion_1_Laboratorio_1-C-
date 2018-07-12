@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1509977399 source:c:\users\elpiola\desktop\dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

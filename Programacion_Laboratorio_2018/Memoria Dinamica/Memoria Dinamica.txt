@@ -1,0 +1,57 @@
+
+STACK/PILA -> La parte de memoria donde se declaran los punteros y estos apuntan al heap. Es Estatica.
+
+HEAP/MONTON -> Es una parte reservada de memoria que se utiliza para guardar los datos de las variables. Es Dinamica.
+
+MALLOC -> 
+	RESERVA DINAMICA DE MEMORIA. Esta funcion se encarga de reservar espacio de memoria.
+
+	--Devuelve un puntero a void. Significa que agarra la primera posicion de memoria reservada y se la devuelve 
+	a un puntero.
+	
+	--Es necesario castear para que devuelva un tipo que no sea void.
+
+	--Declaracion -> puntero = (tipo de dato del puntero) malloc(sizeof(tipo de dato del puntero));
+	
+	--Consejo tecnico- si en el primer tipo de dato del puntero tiene un * en el ultimo no va ninguno.
+	Si tiene dos ** el ultimo va a tener uno *.
+
+	
+	--Si necesitamos pedir memoria para un vector de tal cantidad de elementos.
+	Se multiplica el sizeof por la cantidad de elemenentos.
+
+
+CONCEPTO DE ENCAPSULAMIENTO -> Es cuando uno sabe como usar un objeto pero no sabe como el objeto logra hacer esas funciones.
+El concepto se vasa en ocultar como funciona el programa. 
+
+GETTERS/SETTER.
+
+SETTER-> SE ENCARGAN DE SETEAR DE DARLE UN VALOR AL CAMPO.
+
+THIS-> Es una palabra reservada de c++. Normalmente se usa para llamar a un elemento de la funcion.
+
+GETTERS-> SON FUNCIONES QUE ME PERMITEN OBTENER DATOS.
+
+
+
+REALLOC-> REASIGNA ESPACIO EN MEMORIA.
+
+	--SE DECLARA ASI RELLOC(PUNTERO,SIZEOF(TIPO DE DATO)*EL DOBLE DE ELEMENTOS).
+
+	--BUSCA LA CANTIDAD DE BYTES QUE NECESITA Y SI ES NECESARIO REASIGNA LOS ELEMENTOS A OTRA POSICION DE MEMORIA.
+	Y AL PUNTERO LE ASIGNA OTRA DIRECCION DE MEMORIA.
+
+	--SI NO ENCUENTRA MEMORIA DEVUELVE NULL.
+
+	--ES RECOMENDABLE GUARDAR EL REALLOC EN UN AUXILIAR Y SI EL AUXILIAR NO ES NULL SE ASIGNA AL PUNTERO.
+	SINO CORRE RIESGO DE PERDER DATOS.
+
+	--SOLAMENTE SE PUEDE UTILIZAR SI ANTES SE USO UN MALLOC.
+
+FREE()-> LIBERA MEMORIA
+
+new-> PALABRA RESERVADA PARA UN CONTRUCTOR.
+
+LA FUNCIONES DE CONSTRUCTOR SON USADAS PARA NO TENER CODIGO COMO MALLOC EN EL MAIN.
+
+TAREA CONSTRUCTOR QUE RECIBA PARAMETROS.----------------------------------------------

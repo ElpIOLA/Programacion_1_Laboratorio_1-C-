@@ -1,0 +1,5 @@
+1,Hernan,5004.50,21,programador
+2,Gaston,6000.34,33,analista
+3,Aylen,6040.54,22,tester
+4,Martin,7430.20,30,programador
+5,Camila,9040.33,41,programador

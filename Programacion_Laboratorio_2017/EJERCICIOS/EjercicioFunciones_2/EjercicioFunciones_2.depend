@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1505577876 source:c:\users\elpiola\desktop\ejerciciofunciones_2\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1505577834 source:c:\users\elpiola\desktop\ejerciciofunciones_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"func.h"
+
+1505576324 c:\users\elpiola\desktop\ejerciciofunciones_2\func.h
+

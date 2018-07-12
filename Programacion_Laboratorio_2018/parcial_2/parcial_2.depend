@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1530194530 source:c:\users\alumno\desktop\parcial_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"funciones.h"
+
+1530189127 source:c:\users\alumno\desktop\parcial_2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1530189287 c:\users\alumno\desktop\parcial_2\arraylist.h
+
+1530130772 source:c:\users\alumno\desktop\parcial_2\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530190127 c:\users\alumno\desktop\parcial_2\funcionvalidar.h
+
+1530195283 source:c:\users\alumno\desktop\parcial_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"funcionValidar.h"
+
+1530194946 c:\users\alumno\desktop\parcial_2\funciones.h
+	"ArrayList.h"
+
+1530189127 source:c:\users\elpiola\desktop\parcial_2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1530189287 c:\users\elpiola\desktop\parcial_2\arraylist.h
+
+1530130772 source:c:\users\elpiola\desktop\parcial_2\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530190127 c:\users\elpiola\desktop\parcial_2\funcionvalidar.h
+
+1530554956 source:c:\users\elpiola\desktop\parcial_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"funciones.h"
+
+1530554819 c:\users\elpiola\desktop\parcial_2\funciones.h
+	"ArrayList.h"
+
+1530554914 source:c:\users\elpiola\desktop\parcial_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"funcionValidar.h"
+
+1530572255 source:f:\parcial_2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1530189287 f:\parcial_2\arraylist.h
+
+1530584275 source:f:\parcial_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"funcionValidar.h"
+
+1530584258 f:\parcial_2\funciones.h
+	"ArrayList.h"
+
+1530190127 f:\parcial_2\funcionvalidar.h
+
+1530130772 source:f:\parcial_2\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530584291 source:f:\parcial_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"funciones.h"
+
+1530572255 source:c:\users\elpiola\desktop\hernan\parcial_2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1530189287 c:\users\elpiola\desktop\hernan\parcial_2\arraylist.h
+
+1530560571 source:c:\users\elpiola\desktop\hernan\parcial_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"funcionValidar.h"
+
+1530560321 c:\users\elpiola\desktop\hernan\parcial_2\funciones.h
+	"ArrayList.h"
+
+1530190127 c:\users\elpiola\desktop\hernan\parcial_2\funcionvalidar.h
+
+1530130772 source:c:\users\elpiola\desktop\hernan\parcial_2\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530572287 source:c:\users\elpiola\desktop\hernan\parcial_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"funciones.h"
+

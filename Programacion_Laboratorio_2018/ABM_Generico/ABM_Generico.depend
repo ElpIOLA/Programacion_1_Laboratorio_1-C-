@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1530138156 source:c:\users\elpiola\desktop\abm_generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"ABM.h"
+
+1530138206 source:c:\users\elpiola\desktop\abm_generico\abm.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"ABM.h"
+	"funcionValidar.h"
+
+1530138226 c:\users\elpiola\desktop\abm_generico\abm.h
+	"ArrayList.h"
+
+1530047461 source:c:\users\elpiola\desktop\abm_generico\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1529590846 c:\users\elpiola\desktop\abm_generico\arraylist.h
+
+1530130772 source:c:\users\elpiola\desktop\abm_generico\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530127882 c:\users\elpiola\desktop\abm_generico\funcionvalidar.h
+
+1530121731 source:c:\users\elpiola\desktop\abm_generico\setters_getters.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"setters_getters.h"
+	"funcionValidar.h"
+
+1530121984 c:\users\elpiola\desktop\abm_generico\setters_getters.h
+	"ABM.h"
+
+1530130772 source:c:\users\elpiola\desktop\punterosenc-\abm_generico\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530127882 c:\users\elpiola\desktop\punterosenc-\abm_generico\funcionvalidar.h
+
+1530156741 source:c:\users\elpiola\desktop\punterosenc-\abm_generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"ABM.h"
+
+1529590846 c:\users\elpiola\desktop\punterosenc-\abm_generico\arraylist.h
+
+1530156729 c:\users\elpiola\desktop\punterosenc-\abm_generico\abm.h
+	"ArrayList.h"
+
+1530158688 source:c:\users\elpiola\desktop\punterosenc-\abm_generico\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1530158580 source:c:\users\elpiola\desktop\punterosenc-\abm_generico\abm.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"ABM.h"
+	"funcionValidar.h"
+
+1530158688 source:e:\abm_generico\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1529590846 e:\abm_generico\arraylist.h
+
+1530130772 source:e:\abm_generico\funcionvalidar.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1530127882 e:\abm_generico\funcionvalidar.h
+
+1530156741 source:e:\abm_generico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"ABM.h"
+
+1530156729 e:\abm_generico\abm.h
+	"ArrayList.h"
+

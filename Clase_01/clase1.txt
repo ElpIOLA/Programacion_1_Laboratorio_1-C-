@@ -1,6 +1,0 @@
-Javascript: Lenguaje interpretado
-
-C: Lenguaje interprete, tiene acceso directo al hardware.
-
-printf() -> Muestra un mensaje.
-scanf() -> Ingresa un dato de el tipo indicado.

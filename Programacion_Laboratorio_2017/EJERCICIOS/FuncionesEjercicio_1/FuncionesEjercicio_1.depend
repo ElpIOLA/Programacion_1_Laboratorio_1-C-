@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1505413952 source:c:\users\elpiola\desktop\funcionesejercicio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"C:\Users\ELpIOLA\Desktop\ElpIOLA\Programacion_1 Laboratorio_1\Funciones\FunCpIOLA.h"
+
+1505402658 c:\users\elpiola\desktop\elpiola\programacion_1 laboratorio_1\funciones\funcpiola.h
+
+1505402339 source:c:\users\elpiola\desktop\elpiola\programacion_1 laboratorio_1\funciones\funcpiola.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1506953972 source:c:\users\elpiola\desktop\programa\cabj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cabj.h"
+
+1506953976 c:\users\elpiola\desktop\programa\cabj.h
+
+1506957174 source:c:\users\elpiola\desktop\programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cabj.h"
+	"C:\Users\ELpIOLA\Desktop\ElpIOLA\Programacion_1 Laboratorio_1\Funciones\funCpIOLA.h"
+
+1506956505 c:\users\elpiola\desktop\elpiola\programacion_1 laboratorio_1\funciones\funcpiola.h
+
+1506957446 source:c:\users\elpiola\desktop\elpiola\programacion_1 laboratorio_1\funciones\funcpiola.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	"FunCpIOLA.h"
+
+1506953972 source:c:\users\elpiola\desktop\repositorio\aiuda\programa\cabj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cabj.h"
+
+1506953976 c:\users\elpiola\desktop\repositorio\aiuda\programa\cabj.h
+
+1506960481 source:c:\users\elpiola\desktop\repositorio\aiuda\programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cabj.h"
+	"C:\Users\ELpIOLA\Desktop\ElpIOLA\Programacion_1 Laboratorio_1\Funciones\funCpIOLA.h"
+
