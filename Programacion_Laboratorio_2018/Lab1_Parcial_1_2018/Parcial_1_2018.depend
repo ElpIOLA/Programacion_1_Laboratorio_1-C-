@@ -1,0 +1,425 @@
+# depslib dependency file v1.0
+1526405965 source:c:\users\hernan\desktop\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352789 source:c:\users\hernan\desktop\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+
+1526352815 c:\users\hernan\desktop\parcial_1_2018\propietario.h
+
+1526405979 c:\users\hernan\desktop\parcial_1_2018\automovil.h
+
+1525954659 c:\users\hernan\desktop\parcial_1_2018\funcionvalidar.h
+
+1526352827 source:c:\users\hernan\desktop\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526318296 source:c:\users\hernan\desktop\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526352807 source:c:\users\hernan\desktop\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526405698 c:\users\hernan\desktop\parcial_1_2018\estacionamiento.h
+
+1526413257 source:d:\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 d:\parcial_1_2018\propietario.h
+
+1526415928 d:\parcial_1_2018\automovil.h
+
+1525954659 d:\parcial_1_2018\funcionvalidar.h
+
+1526418959 source:d:\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+
+1526318296 source:d:\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526419035 source:d:\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+
+1526419018 d:\parcial_1_2018\estacionamiento.h
+
+1526418170 source:d:\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526413257 source:e:\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 e:\parcial_1_2018\propietario.h
+
+1526415928 e:\parcial_1_2018\automovil.h
+
+1525954659 e:\parcial_1_2018\funcionvalidar.h
+
+1526318296 source:e:\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526439515 source:e:\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+
+1526439451 e:\parcial_1_2018\estacionamiento.h
+
+1526418170 source:e:\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526439887 source:e:\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+
+1526480955 source:e:\programacion_laboratorio_2018\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 e:\programacion_laboratorio_2018\parcial_1_2018\propietario.h
+
+1526415928 e:\programacion_laboratorio_2018\parcial_1_2018\automovil.h
+
+1525954659 e:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.h
+
+1526493533 source:e:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+
+1526490553 e:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.h
+
+1526318296 source:e:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526481034 source:e:\programacion_laboratorio_2018\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+
+1526418170 source:e:\programacion_laboratorio_2018\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526523998 source:d:\programacion_laboratorio_2018\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 d:\programacion_laboratorio_2018\parcial_1_2018\propietario.h
+
+1526415928 d:\programacion_laboratorio_2018\parcial_1_2018\automovil.h
+
+1525954659 d:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.h
+
+1526524672 source:d:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+
+1526517162 d:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.h
+
+1526318296 source:d:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526524682 source:d:\programacion_laboratorio_2018\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+	"menu.h"
+
+1526523841 source:d:\programacion_laboratorio_2018\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526523430 source:d:\programacion_laboratorio_2018\parcial_1_2018\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1526516202 d:\programacion_laboratorio_2018\parcial_1_2018\menu.h
+
+1526524000 source:f:\programacion_laboratorio_2018\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352816 f:\programacion_laboratorio_2018\parcial_1_2018\propietario.h
+
+1526415930 f:\programacion_laboratorio_2018\parcial_1_2018\automovil.h
+
+1526573990 f:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.h
+
+1527024216 source:f:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+	"menu.h"
+
+1526517164 f:\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.h
+
+1526573934 source:f:\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1527024266 source:f:\programacion_laboratorio_2018\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+	"menu.h"
+
+1527024568 f:\programacion_laboratorio_2018\parcial_1_2018\menu.h
+
+1526574048 source:f:\programacion_laboratorio_2018\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526575678 source:f:\programacion_laboratorio_2018\parcial_1_2018\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1526523998 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 c:\users\hernan\desktop\repositorio\parcial_1_2018\propietario.h
+
+1526415928 c:\users\hernan\desktop\repositorio\parcial_1_2018\automovil.h
+
+1526573988 c:\users\hernan\desktop\repositorio\parcial_1_2018\funcionvalidar.h
+
+1526575479 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+
+1526517162 c:\users\hernan\desktop\repositorio\parcial_1_2018\estacionamiento.h
+
+1526573933 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526575365 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+	"menu.h"
+
+1526575881 c:\users\hernan\desktop\repositorio\parcial_1_2018\menu.h
+
+1526575677 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1526574047 source:c:\users\hernan\desktop\repositorio\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
+1526523998 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\automovil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+
+1526352815 c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\propietario.h
+
+1526415928 c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\automovil.h
+
+1526573988 c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.h
+
+1527024214 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"propietario.h"
+	"automovil.h"
+	"estacionamiento.h"
+	"funcionValidar.h"
+	"menu.h"
+
+1526517162 c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\estacionamiento.h
+
+1526575881 c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\menu.h
+
+1526573933 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\funcionvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"propietario.h"
+	"automovil.h"
+
+1526575365 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	"propietario.h"
+	"automovil.h"
+	"funcionValidar.h"
+	"estacionamiento.h"
+	"menu.h"
+
+1526575677 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1526574047 source:c:\users\hernan\desktop\programacion_laboratorio_2018\parcial_1_2018\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"propietario.h"
+	"funcionValidar.h"
+
