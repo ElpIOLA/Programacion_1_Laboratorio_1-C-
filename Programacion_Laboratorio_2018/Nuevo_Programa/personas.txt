@@ -1,5 +1,0 @@
-1,German,Lopez,Marta 501,33,8500.20
-4,Hernan,Franco,Noya 601,21,12500.50
-7,Lautaro,Aquino,Tuyuti 785,22,20304.20
-22,Camila,Franco ,Hector 444,18,8000.60
-55,Martin,Franco,Concha 222,17,2.50

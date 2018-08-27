@@ -1,3 +1,0 @@
-eProveedor proveedores[]= { {1,"Proveedor A"}, {2,"Proveedor B"}, {3,"Proveedor C"},{4,"Proveedor D"},{5,"Proveedor E"}, {6,"Proveedor F"},{7,"Proveedor G"},{8,"Proveedor H"},{9,"Proveedor I"},{10,"Proveedor J"}};
-
-

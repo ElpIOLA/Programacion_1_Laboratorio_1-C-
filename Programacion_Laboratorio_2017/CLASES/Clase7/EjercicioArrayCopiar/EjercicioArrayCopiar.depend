@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1505145748 source:c:\users\elpiola\desktop\ejercicioarraycopiar\copiandoarrays.c
-
-1505146031 source:c:\users\elpiola\desktop\ejercicioarraycopiar\main.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-
