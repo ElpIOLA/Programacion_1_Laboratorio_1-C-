@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505232556 source:c:\users\elpiola\desktop\arraydestring\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

@@ -1,0 +1,89 @@
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+
+typedef struct
+{
+
+    char nombre[50];
+    int edad;
+    int estado;
+    long int dni;
+
+} EPersona;
+
+#define CANT 2
+
+
+void init(EPersona persona[])
+{
+    int i;
+
+    for(i=0; i<CANT; i++)
+    {
+        persona[i].estado = 0;
+    }
+}
+
+void agregarEPersona(EPersona persona[])
+{
+    int i;
+
+    for(i = 0; i < CANT; i++)
+    {
+        if(persona[i].estado == 0)
+        {
+            printf("Ingrese su nombre: ");
+            fflush(stdin);
+            scanf("%[^\n]", persona[i].nombre);
+
+            printf("Ingrese su edad: ");
+            scanf("%d", &persona[i].edad);
+
+            printf("Ingrese su DNI: ");
+            scanf("%ld", &persona[i].dni);
+
+            persona[i].estado = 1;
+        }
+    }
+}
+
+void listaOrdenadaPorNombre(EPersona persona[])
+{
+    int i,j;
+    char nombreAux[21];
+    for(i = 0; i < CANT -1; i++)
+    {
+        for (j=i+1; j<CANT; j++)
+        {
+            if(i<j)
+            {
+                strcpy(nombreAux,persona[i].nombre);
+                strcpy(persona[i].nombre,persona[j].nombre);
+                strcpy(persona[j].nombre,nombreAux);
+            }
+        }
+        for(i = 0; i<CANT; i++)
+        {
+            printf("ALTA Numero %i:\n",i);
+            printf("Nombre: %s\n",nombreAux);
+        }
+
+    }
+}
+
+void borrarPersona(EPersona persona[])
+{
+    EPersona aux;
+    int i;
+
+    printf("Ingrese el DNI de la persona a eliminar: ");
+    scanf("%d", aux.dni);
+}
+
+
+#endif // FUNCIONES_H_INCLUDED

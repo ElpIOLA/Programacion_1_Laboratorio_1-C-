@@ -1,0 +1,229 @@
+# depslib dependency file v1.0
+1524855344 source:c:\users\elpiola\desktop\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524855322 c:\users\elpiola\desktop\tp_2_cascara\funciones.h
+
+1524855414 source:c:\users\elpiola\desktop\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524343590 c:\users\elpiola\desktop\tp_2_cascara\libreria.h
+
+1524668904 source:c:\users\elpiola\desktop\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1524702024 source:f:\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524701930 f:\tp_2_cascara\funciones.h
+
+1524343590 f:\tp_2_cascara\libreria.h
+
+1524668904 source:f:\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1524701924 source:f:\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524855328 source:d:\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524855322 d:\tp_2_cascara\funciones.h
+
+1524343590 d:\tp_2_cascara\libreria.h
+
+1524668904 source:d:\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1524855198 source:d:\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1525351522 source:d:\trabajo practico nro 2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524857854 d:\trabajo practico nro 2\tp_2_cascara\funciones.h
+
+1524343590 d:\trabajo practico nro 2\tp_2_cascara\libreria.h
+
+1524668904 source:d:\trabajo practico nro 2\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1525350658 source:d:\trabajo practico nro 2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524668904 source:c:\users\elpiola\desktop\acaaaaa\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1524343590 c:\users\elpiola\desktop\acaaaaa\tp_2_cascara\libreria.h
+
+1525203012 source:c:\users\elpiola\desktop\acaaaaa\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524857854 c:\users\elpiola\desktop\acaaaaa\tp_2_cascara\funciones.h
+
+1525222631 source:c:\users\elpiola\desktop\acaaaaa\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524668904 source:f:\trabajo practico nro 2\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1524343590 f:\trabajo practico nro 2\tp_2_cascara\libreria.h
+
+1525297316 source:f:\trabajo practico nro 2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1524857854 f:\trabajo practico nro 2\tp_2_cascara\funciones.h
+
+1525350658 source:f:\trabajo practico nro 2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526650260 source:e:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526652642 e:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.h
+
+1524343590 e:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.h
+
+1524668904 source:e:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1526652554 source:e:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526650260 source:d:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526652647 d:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.h
+
+1526670540 d:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.h
+
+1526652621 source:d:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526670538 source:d:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1526961432 source:f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"libreria.h"
+
+1526930254 f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\funciones.h
+
+1526670542 f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.h
+
+1526670540 source:f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1526961874 source:f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archivos.h"
+	"funciones.h"
+	"libreria.h"
+
+1526961836 source:f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\archivos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archivos.h"
+	"funciones.h"
+	"libreria.h"
+
+1526961838 f:\programacion_laboratorio_2018\trabajo practico nro 2\tp_2_cascara\archivos.h
+	"funciones.h"
+

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1506889665 source:f:\programacion_1 laboratorio_1\clases\clase 11\asd\aka.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"aka.h"
+
+1506888782 f:\programacion_1 laboratorio_1\clases\clase 11\asd\aka.h
+
+1506889271 source:f:\programacion_1 laboratorio_1\clases\clase 11\asd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"aka.h"
+
+1506799257 c:\users\elpiola\desktop\elpiola\programacion_1 laboratorio_1\funciones\funcpiola.h
+

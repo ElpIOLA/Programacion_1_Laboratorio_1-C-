@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1527303446 source:c:\users\hernan\desktop\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527355660 source:c:\users\hernan\desktop\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527290934 c:\users\hernan\desktop\tp_3_cascara\funcionvalidar.h
+
+1527554266 source:c:\users\hernan\desktop\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527554522 c:\users\hernan\desktop\tp_3_cascara\funciones.h
+
+1527303458 c:\users\hernan\desktop\tp_3_cascara\menu.h
+
+1527553873 source:c:\users\hernan\desktop\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527303446 source:d:\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527290934 d:\tp_3_cascara\funcionvalidar.h
+
+1527355660 source:d:\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527359104 source:d:\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527363372 d:\tp_3_cascara\funciones.h
+
+1527303458 d:\tp_3_cascara\menu.h
+
+1527364495 source:c:\users\elpiola\desktop\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527290934 c:\users\elpiola\desktop\tp_3_cascara\funcionvalidar.h
+
+1527363370 c:\users\elpiola\desktop\tp_3_cascara\funciones.h
+
+1527355660 source:c:\users\elpiola\desktop\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527359103 source:c:\users\elpiola\desktop\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527303458 c:\users\elpiola\desktop\tp_3_cascara\menu.h
+
+1527303446 source:c:\users\elpiola\desktop\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527364916 source:d:\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527727418 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527290934 c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\funcionvalidar.h
+
+1527724731 c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\funciones.h
+
+1527355660 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527724883 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527723831 c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\menu.h
+
+1527303446 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527799440 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527290934 c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\funcionvalidar.h
+
+1527799210 c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\funciones.h
+
+1527355660 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527799231 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527723831 c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\menu.h
+
+1527303446 source:c:\users\hernan\desktop\tp_laboratorio_3\tp_laboratorio_3\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527799656 source:f:\tp_laboratorio_3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527290934 f:\tp_laboratorio_3\tp_3_cascara\funcionvalidar.h
+
+1527799212 f:\tp_laboratorio_3\tp_3_cascara\funciones.h
+
+1527355660 source:f:\tp_laboratorio_3\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527799232 source:f:\tp_laboratorio_3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527723832 f:\tp_laboratorio_3\tp_3_cascara\menu.h
+
+1527303446 source:f:\tp_laboratorio_3\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+
+1527799656 source:e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcionValidar.h"
+	"funciones.h"
+
+1527290934 e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\funcionvalidar.h
+
+1527799986 e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\funciones.h
+
+1527355660 source:e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\funcionvalidar.c
+	<stdio.h>
+	<string.h>
+	"funcionValidar.h"
+
+1527799232 source:e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"menu.h"
+
+1527723832 e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\menu.h
+
+1527303446 source:e:\programacion_laboratorio_2018\tp_laboratorio_3\tp_3_cascara\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionValidar.h"
+

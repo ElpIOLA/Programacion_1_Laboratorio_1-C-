@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1526914712 source:c:\test\scarafilo\archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1527019736 source:c:\test\scarafilo\clase archivos\archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+

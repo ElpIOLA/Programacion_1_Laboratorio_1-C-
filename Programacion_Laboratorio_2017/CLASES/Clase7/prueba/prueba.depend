@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505145141 source:c:\users\elpiola\desktop\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

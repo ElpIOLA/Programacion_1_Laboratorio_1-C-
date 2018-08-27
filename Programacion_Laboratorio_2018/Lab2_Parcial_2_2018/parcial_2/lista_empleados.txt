@@ -1,0 +1,12 @@
+1,hernan,10000.20,21,analista
+2,gaston,7300.50,25,tester
+3,gabriela,8500.30,31,programador
+4,camila,12000.70,41,programador
+12,gabriel,27800.54,26,programador
+10,lautaro,15300.20,24,analista
+50,nestor,74200.20,65,programador
+16,gimena,15000.00,28,tester
+5,martin,8060.40,17,analista
+32,javier,9000.60,32,programador
+7,julieta,7030.40,37,programador
+17,laura,1700.20,16,analista

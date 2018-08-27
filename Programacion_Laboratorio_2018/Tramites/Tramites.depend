@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1529699380 source:e:\tramites\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"ArrayList.h"
+
+1529590846 e:\tramites\arraylist.h
+
+1529699527 source:e:\tramites\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tramite.h"
+	"ArrayList.h"
+
+1529679133 e:\tramites\tramite.h
+	"ArrayList.h"
+
+1529679640 source:e:\tramites\tramite.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tramite.h"
+
