@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1539305654 source:c:\users\hernan franco\desktop\ejercicios del campus lab_1\clase_5\ejercicio_00\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1539301936 c:\users\hernan franco\desktop\ejercicios del campus lab_1\clase_5\ejercicio_00\validaciones.h
+
+1539305654 source:f:\programacion_1_laboratorio_1-c-\ejercicios del campus lab_1\clase_5\ejercicio_00\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1539301936 f:\programacion_1_laboratorio_1-c-\ejercicios del campus lab_1\clase_5\ejercicio_00\validaciones.h
+

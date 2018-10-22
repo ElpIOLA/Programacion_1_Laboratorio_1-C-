@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1539300484 source:e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1539300484 e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\arraylist.h
+
+1539561091 source:e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"parser.h"
+	"Validaciones.h"
+	"Caracteres.h"
+
+1539561176 source:e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1539301936 e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\validaciones.h
+
+1539560666 source:e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\caracteres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Caracteres.h"
+
+1539545461 e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\caracteres.h
+	"ArrayList.h"
+
+1539561646 source:e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"ArrayList.h"
+	"parser.h"
+	"Caracteres.h"
+
+1539537828 e:\programacion_1_laboratorio_1-c-\finales de laboratorio\final_laboratorio1_2\parser.h
+	"ArrayList.h"
+

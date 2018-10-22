@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1539300484 source:c:\users\hernan franco\desktop\final_laboratorio_1\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1539300484 c:\users\hernan franco\desktop\final_laboratorio_1\arraylist.h
+
+1539368007 source:c:\users\hernan franco\desktop\final_laboratorio_1\letra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"letra.h"
+
+1539367966 source:c:\users\hernan franco\desktop\final_laboratorio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"parser.h"
+	"Letra.h"
+
+1539305654 source:c:\users\hernan franco\desktop\final_laboratorio_1\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1539301936 c:\users\hernan franco\desktop\final_laboratorio_1\validaciones.h
+
+1539366185 source:c:\users\hernan franco\desktop\final_laboratorio_1\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"ArrayList.h"
+	"parser.h"
+	"Letra.h"
+
+1539300484 c:\users\hernan franco\desktop\final_laboratorio_1\parser.h
+	"ArrayList.h"
+
+1539367099 c:\users\hernan franco\desktop\final_laboratorio_1\letra.h
+	"ArrayList.h"
+
+1539300484 source:f:\finales de laboratorio\final_laboratorio_1\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1539300484 f:\finales de laboratorio\final_laboratorio_1\arraylist.h
+
+1539368007 source:f:\finales de laboratorio\final_laboratorio_1\letra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"letra.h"
+
+1539367099 f:\finales de laboratorio\final_laboratorio_1\letra.h
+	"ArrayList.h"
+
+1539368237 source:f:\finales de laboratorio\final_laboratorio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"parser.h"
+	"Letra.h"
+
+1539301936 f:\finales de laboratorio\final_laboratorio_1\validaciones.h
+
+1539300484 f:\finales de laboratorio\final_laboratorio_1\parser.h
+	"ArrayList.h"
+
+1539366185 source:f:\finales de laboratorio\final_laboratorio_1\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"ArrayList.h"
+	"parser.h"
+	"Letra.h"
+
+1539305654 source:f:\finales de laboratorio\final_laboratorio_1\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
